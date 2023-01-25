@@ -122,6 +122,7 @@ public void run(String... strings) throws Exception {
 ```
 
 Now it is time to prepare our consumer to received that String and convert it to a propre JSON Objetc.
+
 6. Create a method called getProperties() so that it can received the String, parse it to JSON and retreive a specific property.
 ```java
 public void getProperties(String message) throws ParseException {
