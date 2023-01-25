@@ -7,7 +7,7 @@ Red Hat® AMQ—based on open source communities like Apache ActiveMQ and Apache
 This example uses:
 - Podman 4.2.0
 - Red Hat AMQ Broker 7.X
-- VSCode 1.74.1
+- VSCode 1.74.3 (or other IDE)
 
 ## Setting up the Broker with Podman
 
