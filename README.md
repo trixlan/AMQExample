@@ -121,7 +121,7 @@ public void run(String... strings) throws Exception {
 }
 ```
 
-Now it is time to prepare our consumer to received that String and convert it to a propre JSON Objetc.
+Now it is time to prepare our consumer to received that String and convert it to a propre JSON Object.
 
 6. Create a method called getProperties() so that it can received the String, parse it to JSON and retreive a specific property.
 ```java
@@ -136,7 +136,7 @@ public void getProperties(String message) throws ParseException {
 
 7. Call our new function in main method called processMsg() and throw the Exception.
 ```java
-public void processMsg(String message) {
+public void processMsg(String message) throws ParseException {
     LOG.info("============= Received: " + message);
     getProperties(message);
 }
